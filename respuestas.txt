@@ -1,0 +1,17 @@
+punto 2 f)
+
+Inspeccione desde el explorador de archivos la carpeta donde inicializó el repositorio:
+● ¿Puede ver el archivo tp2_1_2.c? ¿Por qué?
+
+-NO SE PUEDE VER, PORQUE EL ARCHIVO FUE CREADO DENTRO DE LA RAMA "Opcion_2" QUE ES UNA COPIA EXACTA DEL REPOSITORIO PRINCIPAL. ESTO CON EL FIN DE NO COMPROMETER EL PROYECTO QUE ESTEMOS TRABAJANDO.
+
+● En la línea principal agregue un nuevo archivo que se llame Respuestas.txt y haga
+el commit correspondiente
+● vuelva a ejecutar el comando gitk --all ¿Qué diferencias nota?
+
+- AGREANDO EL ARCHIVO "respuestas.txt",AL MISMO SE LO PUEDE OBSERVAR DESDE EL EXPLORADOR DE ARCHIVOS Y TAMBIEN MEDIANTE LA REPRESENTACION GRAFICA DEL HISTORIAL DE VERSIONES, AL HACER CLICK EN "MAIN" SE LO PUEDE VER JUNTO A LOS DEMAS ARCHIVOS PERO AUN SIN EL ARCHIVO "tp2_1_2.c".
+POR OTRO LADO AL HACER CLICK EN "Opcion_2" NO SE PUEDE VER EL ARCHIVO "respuestas.txt"
+
+-LUEGO DE HACER (merge) PARA COMVINAR AMBOS REPOSITORIOS SE PUEDE OBSERVAR COMO EL ARCHIVO "tp2_1_2.c" APARECE DESDE EL EXPLORADOR DE ARCHIVOS (SE UNIFICÓ TODO).
+
+
