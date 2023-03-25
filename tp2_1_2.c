@@ -10,7 +10,7 @@ int main(void)
     for (i = 0; i < N; i++)
     {
         *puntero = 1 + rand() % 100;
-        printf("% f ", vt[i]);
+        printf("% f ", *puntero);
         puntero++;
     }
     return 0;
