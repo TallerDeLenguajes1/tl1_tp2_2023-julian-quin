@@ -18,8 +18,8 @@ void PCvieja(pc *arreglo);
 void PCvelocidd(pc *arreglo);
 int main(void)
 {
-    pc computadoras[2];
-    for (int i = 0; i < 2; i++)
+    pc computadoras[5];
+    for (int i = 0; i < 5; i++)
     {
         printf("------ Computadora (%d) ------\n", i + 1);
         computadoras[i] = cargarComputadora();
@@ -57,7 +57,7 @@ void mostrarComputadoras(pc *arreglo)
     printf("\n");
     printf(">>>>>>>> LISTA DE COMPUTADORAS >>>>>>>>>\n");
     printf("\n");
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < 5; i++)
     {
         printf("------ Computadora (%d) ------\n", i + 1);
         printf("velocidad de procesameinto: %d GHz\n", arreglo->Velc_proc_Gz);
@@ -71,7 +71,7 @@ void PCvieja(pc *arreglo)
 {
     pc vieja;
     int auxAnio = 100000;
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < 5; i++)
     {
         if (arreglo->anio_Fab < auxAnio)
         {
@@ -95,7 +95,7 @@ void PCvelocidd(pc *arreglo)
 {
     pc velocidad;
     int auxVel = 0;
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < 5; i++)
     {
         if (arreglo->Velc_proc_Gz > auxVel)
         {
