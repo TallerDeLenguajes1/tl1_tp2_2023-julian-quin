@@ -76,11 +76,7 @@ void PCvieja(pc *arreglo)
         if (arreglo->anio_Fab < auxAnio)
         {
           auxAnio=arreglo->anio_Fab;
-
-          vieja.anio_Fab=arreglo->anio_Fab;
-          vieja.cant_Nuc=arreglo->cant_Nuc;
-          vieja.tipo_cpu=arreglo->tipo_cpu;
-          vieja.Velc_proc_Gz=arreglo->Velc_proc_Gz;
+          vieja=*arreglo;
         }
         arreglo ++;
     }
@@ -103,12 +99,8 @@ void PCvelocidd(pc *arreglo)
     {
         if (arreglo->Velc_proc_Gz > auxVel)
         {
-          auxVel=arreglo->anio_Fab;
-
-          velocidad.anio_Fab=arreglo->anio_Fab;
-          velocidad.cant_Nuc=arreglo->cant_Nuc;
-          velocidad.tipo_cpu=arreglo->tipo_cpu;
-          velocidad.Velc_proc_Gz=arreglo->Velc_proc_Gz;
+          auxVel=arreglo->Velc_proc_Gz;
+          velocidad=*arreglo;
         }
         arreglo ++;
     }
